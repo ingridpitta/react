@@ -10,13 +10,38 @@ export default class Cadastro extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-
+            conteudo: undefined
         }
     }
+
+    handleMudaConteudo = (valor) => {
+        // console.log(valor, "valor do clique")
+        this.setState({conteudo: valor}) //forma reduzida
+        /* 
+        this.setState((valor) => {
+            return{
+                conteudo: valor
+            }
+        })
+        */
+    }
+
     render() {
         return (
             <div className="cadastro">
-                <Inicial />
+                {
+                    this.state.conteudo === undefined &&
+                    <Inicial alteraConteudo=
+                    {this.handleMudaConteudo}/>
+                }
+
+                {
+                    this.state.conteudo === "PF" && <PessoaFisica />
+                } 
+                
+                {
+                    this.state.conteudo === "PJ" && <PessoaJuridica />
+                } 
             </div>
         )
     }  
