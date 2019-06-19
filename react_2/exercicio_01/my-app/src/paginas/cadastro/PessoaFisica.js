@@ -50,7 +50,7 @@ export default class PessoaFisica extends React.Component {
         //Destructing
         const {nomeSobrenome, numeroCpf, dataNascimento, email, senha} = this.state
 
-        if(!nomeSobrenome.valor||nomeSobrenome.erro||numeroCpf.valor||numeroCpf.erro||dataNascimento.valor||dataNascimento.erro||email.valor||email.erro||senha.valor|| senha.erro){
+        if(!nomeSobrenome.valor||nomeSobrenome.erro||!numeroCpf.valor||numeroCpf.erro||!dataNascimento.valor||dataNascimento.erro||!email.valor||email.erro||!senha.valor|| senha.erro){
             return true
         }else{
             return false
@@ -154,7 +154,7 @@ export default class PessoaFisica extends React.Component {
                         </Grupo>
                     </div>
                     <BotaoSubmit desabilitado={desabilitado}
-                    acaoBotao={this.handleSubmit} className="botao">
+                    acaoBotao={this.handleSubmit} classeBotao="botao">
                         Enviar
                     </BotaoSubmit>
                 </form>
