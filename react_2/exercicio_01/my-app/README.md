@@ -66,3 +66,21 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+#### Links úteis
+
+Link da requisição https://my-json-server.typicode.com/reprograma/T7-react-II
+
+Link da revisão ppt https://docs.google.com/presentation/d/1RIgwY2Rh6eK-ozRGBL1bv4MKRKSWjO0hrVxwtDhxBYU/edit#slide=id.g597c38fb29_0_63)
+
+Conteudo complentar https://medium.com/@oieduardorabelo/padr%C3%B5es-em-react-criando-componentes-d35422034d75
+
+https://reacttraining.com/react-router/web/guides/quick-start
+https://www.npmjs.com/package/@material-ui/core
+https://ant.design/docs/react/introduce
+https://react-bootstrap.github.io/getting-started/introduction
+https://pt-br.reactjs.org/docs/integrating-with-other-libraries.html
+https://www.npmjs.com/package/axios
+https://regex101.com/
